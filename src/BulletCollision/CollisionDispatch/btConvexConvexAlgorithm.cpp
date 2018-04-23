@@ -17,7 +17,7 @@ subject to the following restrictions:
 ///If you experience problems with capsule-capsule collision, try to define BT_DISABLE_CAPSULE_CAPSULE_COLLIDER and report it in the Bullet forums
 ///with reproduction case
 //#define BT_DISABLE_CAPSULE_CAPSULE_COLLIDER 1
-//#define ZERO_MARGIN
+#define ZERO_MARGIN
 
 #include "btConvexConvexAlgorithm.h"
 
